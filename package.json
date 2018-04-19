@@ -1,0 +1,28 @@
+{
+  "name": "wowtestapi",
+  "version": "1.0.0",
+  "description": "wow test",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon api/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreasBosch/wowTestApi.git"
+  },
+  "author": "Andreas Bosch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreasBosch/wowTestApi/issues"
+  },
+  "homepage": "https://github.com/AndreasBosch/wowTestApi#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.1",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
